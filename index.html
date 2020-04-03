@@ -12,6 +12,7 @@
                 <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
                 <link rel="stylesheet" href="css/style.css">
+                <link rel="stylesheet" href="css/style_phone.css">
         </head>
         <body>
                 <main id="root">
@@ -19,26 +20,31 @@
                                 <div class="white">
                                         <header class="page-header wrapper">
                                                 <h1><a class="amazon" href="https://www.amazon.co.jp/hz/wishlist/ls/28RSJWA5W9SVJ?&sort=default" target="_blank"><img class="logo" src="images/logo.png" alt="pcマーク"></a></h1>
-                                                <nav>
-                                                        <ul class="main-nav">
-                                                                <li><a href="index.html">Top</a></li>
-                                                                <li><a href="about.html">About</a></li>
-                                                                <li><a href="blog.html">Blog</a></li>
-                                                                <li><a href="contact.html">Contact</a></li>
-                                                        </ul>
+                                                <a class="menuButton " id="menuButton">
+                                                        <div class="bar"></div>
+                                                        <div class="bar"></div>
+                                                        <div class="bar"></div>
+                                                </a>
+                                                <nav id="nav">
+                                                        <div class="menu">
+                                                                <ul class="menu_title">
+                                                                        <li class="header_li"><a href="index.html">Top</a></li>
+                                                                        <li class="header_li"><a href="about.html">About</a></li>
+                                                                        <li class="header_li"><a href="blog.html">Blog</a></li>
+                                                                        <li class="header_li"><a href="contact.html">Contact</a></li>
+                                                                </ul>
+                                                        </div>
                                                 </nav>
                                         </header>
+                                        <script src="js/main.js"></script>
                                 </div>
 
-                                <div class="home-content wrapper">
-                                        <h1><img class="index_img" src="images/index_img" alt=""></h1>
-                                </div><!-- /.home-content -->
-                                <nav class="sns_nav">
+                                <div class="sns_nav">
                                         <a href="https://twitter.com/Rie_cpp" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
                                         <a href="https://github.com/Rie-cpp" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>
                                         <a href="https://www.youtube.com/channel/UCXqRhbcLeSjSAr_ozhCAtng/?guided_help_flow=5" target="_blank" title="YuTube"><i class="fa fa-youtube"></i></a>
                                         <a href="https://www.instagram.com/rie_cpp/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a>
-                                </nav>
+                                </div>
                         </div><!-- /#home -->
                 </main>
         </body>

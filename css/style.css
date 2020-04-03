@@ -79,6 +79,14 @@ table {
                 /*padding: 0 4%;*/
         }
 
+        /* HOME
+        ----------------------------------------------*/
+        #home {
+                background-image: url(../images/index_img.jpg);
+                min-height: 100vh;
+        }
+
+
         /* ABOUT
         ----------------------------------------------*/
 }

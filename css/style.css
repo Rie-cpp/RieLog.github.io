@@ -27,6 +27,10 @@ table {
 }
 
 @media screen and (min-width: 761px) {
+        table {
+                width: 50%;
+        }
+        
         /* header
         ----------------------------------- */
         .logo {
